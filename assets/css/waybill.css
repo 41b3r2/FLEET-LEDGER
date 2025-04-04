@@ -1,0 +1,876 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    background-color: #cc0000;
+    width: 200px;
+    min-width: 200px;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.metric-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.metric-title {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chart-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.pie-chart {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-slice {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 50%;
+    border-left: 2px solid white;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+
+.bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80px;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.bar {
+    width: 8px;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.bar-1 {
+    height: 30%;
+}
+
+.bar-2 {
+    height: 70%;
+}
+
+.bar-3 {
+    height: 50%;
+}
+
+.logout-section {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-section:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logout-icon {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px 0 0 20px;
+    margin: 20px 0 20px -20px;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.pcl-text {
+    color: #ff0000;
+    font-size: 150px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: #cc0000;
+    color: white;
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(204, 0, 0, 0.3);
+}
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-icon.sheets {
+    position: relative;
+}
+
+.sheets::before, .sheets::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+}
+
+.sheets::before {
+    width: 60%;
+    height: 2px;
+    top: 35%;
+}
+
+.sheets::after {
+    height: 60%;
+    width: 2px;
+    left: 35%;
+}
+
+.menu-icon.new-sheet::before, .menu-icon.new-sheet::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+}
+
+.menu-icon.new-sheet::before {
+    width: 60%;
+    height: 2px;
+}
+
+.menu-icon.new-sheet::after {
+    height: 60%;
+    width: 2px;
+}
+
+.menu-icon.queries {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.funnel {
+    width: 30px;
+    height: 25px;
+    position: relative;
+}
+
+.funnel::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid white;
+}
+
+.funnel::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    width: 6px;
+    height: 10px;
+    background-color: white;
+}
+
+.menu-label {
+    font-size: 18px;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.mobile-toggle {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 200;
+    width: 40px;
+    height: 40px;
+    background-color: #cc0000;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(0);
+    animation: ripple-animation 0.6s linear;
+    pointer-events: none;
+}
+
+    /* Container for the People Icon */
+    .people-icon {
+        width: 100px;
+        height: 60px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Head (Bilog) */
+    .people-head {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 15px;
+    }
+
+    /* Body (Half-circle) */
+    .people-body {
+        width: 75px;
+        height: 50px;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        border-radius: 35px 35px 0 0;
+    }
+            /* Basic Styling */
+            .metric-section {
+                cursor: pointer;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            /* Hover Effect - Gumagalaw pataas */
+            .metric-section:hover {
+                transform: translateY(-5px);
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            }
+            /* Loading Overlay (Hidden by Default) */
+            .loading-screen {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+                color: white;
+                font-size: 24px;
+                font-weight: bold;
+                align-items: center;
+                justify-content: center;
+                z-index: 9999;
+            }
+            
+            .loader {
+                border: 5px solid #f3f3f3;
+                border-top: 5px solid red;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                animation: spin 2s linear infinite;
+                margin-right: 15px;
+            }
+            
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+            
+            .logout-link {
+                text-decoration: none;
+                color: inherit;
+                display: block; /* Ginagawang clickable ang buong section */
+            }
+    
+            /* Added styles for the logo in upper left */
+            .logo-wrapper {
+                position: absolute;
+                top: 35px;
+                left: 210px; /* Accounting for sidebar width */
+                z-index: 50;
+            }
+            
+            /* Main content adjustments */
+            .main-content {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            /* Logo container styling for mobile view */
+            .logo-container {
+                display: none; /* Hidden by default for desktop */
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 15px;
+            }
+            
+            /* Menu grid positioning - separate for desktop and mobile */
+            .table-grid {
+                margin-top: 100px; /* Increased margin for desktop as requested */
+                width: 100%;
+            }
+            .pending-trip-section {
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+        .trip-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            padding: 0 10px;
+        }
+        
+        .trip-header h2 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .add-trip-btn {
+            background-color: #800000;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        
+        /* Responsive table container */
+        .table-responsive {
+            overflow-x: auto;
+            width: 100%;
+            margin-bottom: 15px;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        /* Table styling */
+        .trip-table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 800px; /* Ensures table doesn't get too compressed */
+        }
+        
+        .trip-table th {
+            background-color: #800000;
+            color: white;
+            padding: 8px;
+            text-align: left;
+            font-weight: normal;
+            white-space: nowrap;
+        }
+        
+        .trip-table td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        
+        .trip-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .update-btn {
+            background-color: #800000;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            cursor: pointer;
+            width: 100%;
+            display: block;
+        }
+        
+        /* Pagination styling */
+        .pagination {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 0 10px;
+            flex-wrap: wrap;
+        }
+        
+        .pagination a {
+            margin: 3px;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .pagination .page-num {
+            margin: 0 3px;
+        }
+        
+        .pagination .active {
+            font-weight: bold;
+            color: #800000;
+        }
+        
+        .pagination .prev, .pagination .next {
+            color: #800000;
+        }
+        
+        /* Monitoring section */
+        .monitoring-section {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        
+        .monitoring-btn {
+            background-color: #800000;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            font-weight: normal;
+            width: 200px;
+            max-width: 100%;
+        }
+        
+        /* Mobile responsive adjustments */
+        @media screen and (max-width: 768px) {
+            .trip-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .add-trip-btn {
+                margin-top: 10px;
+                align-self: flex-end;
+            }
+            
+            .pagination {
+                justify-content: center;
+            }
+            
+            .monitoring-btn {
+                width: 80%;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .trip-header h2 {
+                font-size: 16px;
+            }
+            
+            .pagination a {
+                font-size: 14px;
+            }
+        }
+            
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .logo-wrapper {
+                    display: none; /* Hide desktop logo */
+                }
+                
+                .logo-container {
+                    display: flex; /* Show mobile logo */
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                }
+                
+                /* Separate styling for mobile menu grid - unchanged from original */
+                .menu-grid {
+                    margin-top: 0; /* Reset margin for mobile */
+                }
+            }
+            /* Add these new styles to your existing CSS */
+    
+    /* Ensure table is properly responsive on mobile */
+    @media screen and (max-width: 768px) {
+        .table-grid {
+            margin-top: 20px; /* Reduce the top margin on mobile */
+        }
+        
+        .pending-trip-section {
+            margin-top: 0; /* Remove additional top margin */
+        }
+        
+        /* Make table scroll horizontally on small screens */
+        .table-responsive {
+            -webkit-overflow-scrolling: touch;
+            margin-bottom: 10px;
+        }
+        
+        /* Adjust header spacing for mobile */
+        .trip-header {
+            padding: 0 5px;
+        }
+        
+        /* Ensure text in table cells doesn't wrap awkwardly */
+        .trip-table td {
+            white-space: nowrap;
+        }
+    }
+    
+    /* Further optimizations for very small screens */
+    @media screen and (max-width: 480px) {
+        .logo-container img {
+            width: 150px; /* Make logo smaller on very small screens */
+        }
+        
+        .logo-container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        /* Ensure the table doesn't push content down */
+        .table-grid {
+            margin-top: 10px;
+        }
+    }
+    
+    /* Global styles */
+    * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+    }
+    /* Add this to your waybill.css file */
+.disabled-input {
+    background-color: #f5f5f5;
+    color: #666;
+    cursor: not-allowed;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.auto-generate-text {
+    color: #666;
+    font-size: 0.9em;
+    font-style: italic;
+}
+    /* Modal Styling */
+    .modal-overlay {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .modal-container {
+        background-color: white;
+        border-radius: 5px;
+        width: 90%;
+        max-width: 900px;
+        max-height: 90vh;
+        overflow-y: auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background-color: #800000;
+        color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    .modal-header h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+    
+    .close-modal {
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .modal-body {
+        padding: 20px;
+    }
+    
+    /* Form styling */
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        gap: 15px;
+    }
+    
+    .form-group {
+        flex: 1;
+        min-width: calc(33.333% - 15px);
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .form-group input, 
+    .form-group select {
+        width: 100%;
+        padding: 8px 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+    .form-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .submit-btn {
+        background-color: #800000;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .delete-btn {
+        background-color: #800000;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    .cancel-btn {
+        background-color: #ccc;
+        color: #333;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    /* Hover effects */
+    .submit-btn:hover {
+        background-color: #600000;
+    }
+    .delete-btn:hover {
+        background-color: #8a0000;
+    }
+    
+    .cancel-btn:hover {
+        background-color: #bbb;
+    }
+    
+    input[readonly], select[readonly] {
+        background-color: rgb(236, 236, 236);
+        pointer-events: none;
+    }
+    
+    /* Mobile adjustments */
+    @media (max-width: 768px) {
+        .modal-container {
+            width: 95%;
+            max-height: 95vh;
+        }
+        
+        .form-group {
+            min-width: 100%;
+        }
+    }
+@keyframes ripple-animation {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        position: fixed;
+        left: -200px;
+        height: 100%;
+        width: 200px;
+    }
+    
+    .sidebar.active {
+        left: 0;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        border-radius: 0;
+        width: 100%;
+        padding: 60px 20px 20px;
+    }
+    
+    .mobile-toggle {
+        display: flex;
+    }
+    
+    .menu-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu-item {
+        width: 90%;
+        max-width: 300px;
+    }
+    
+    .logo-container {
+        margin-bottom: 30px;
+    }
+    
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 90;
+    }
+    
+    .overlay.active {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .pcl-text {
+        font-size: 32px;
+    }
+    
+    .menu-item {
+        height: 130px;
+    }
+    
+    .menu-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .menu-label {
+        font-size: 16px;
+    }
+}
