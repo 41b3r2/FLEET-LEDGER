@@ -1,0 +1,805 @@
+[2025-03-27 09:05:22] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [date_received] => 2025-03-28
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 1
+    [Remarks] => Missing Docs
+)
+
+[2025-03-27 09:15:21] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [date_received] => 2025-04-05
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 1
+    [Remarks] => Waiting for approval (client)
+)
+
+[2025-03-27 09:18:23] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 1
+    [date_received] => 2025-03-26
+    [Remarks] => Waiting for approval (client)
+)
+
+[2025-03-27 09:18:23] AR Insertion Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO ar (
+                invoice_number, 
+                date_received, ...' at line 1
+[2025-03-27 09:18:44] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 13
+    [date_received] => 2025-04-05
+    [Remarks] => Waiting for approval (client)
+)
+
+[2025-03-27 09:19:03] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [date_received] => 2025-03-29
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 132
+    [Remarks] => Waiting for approval (client)
+)
+
+[2025-03-27 09:22:59] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 1
+    [date_received] => 2025-03-29
+    [Remarks] => Waiting for approval (client)
+)
+
+[2025-03-27 09:23:12] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [date_received] => 2025-03-28
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 112
+    [Remarks] => Waiting for approval (client)
+)
+
+[2025-03-27 09:23:27] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [date_received] => 2025-03-28
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 11233
+)
+
+[2025-03-27 09:27:05] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [date_received] => 2025-03-29
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 11233
+    [remarks] => Missing Docs
+)
+
+[2025-03-27 09:30:52] RAW POST Data: Array
+(
+    [cs_id] => 1
+    [topsheet] => 1
+    [waybill] => 212
+    [date] => 2025-03-10
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 18:18:00
+    [truck_id] => 87
+    [driver_name] => 7
+    [helper1_name] => 3
+    [helper2_name] => 9
+    [fuelfee] => 1122
+    [tollfee] => 121
+    [parkingfee] => 11
+    [rorofarefee] => 11
+    [budgetrelease] => 1265
+    [pod_status] => Complete
+    [date_received] => 2025-03-28
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 112331
+    [remarks] => Waiting for approval (client)
+)
+
+[2025-03-27 09:43:06] RAW POST Data: Array
+(
+    [cs_id] => 5
+    [topsheet] => 0
+    [waybill] => 1
+    [date] => 2025-03-28
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 16:42:00
+    [truck_id] => 1
+    [driver_name] => 1
+    [helper1_name] => 1
+    [helper2_name] => 1
+    [fuelfee] => 1
+    [tollfee] => 1
+    [parkingfee] => 1
+    [rorofarefee] => 1
+    [budgetrelease] => 4
+    [pod_status] => Complete
+    [Remarks] => No Stamp
+    [pod_transmittal] => 1
+    [date_transmitted] => 2025-03-28
+    [invoice_number] => 1
+    [date_received] => 2025-03-28
+    [remarks] => Waiting for approval (client)
+)
+
+[2025-03-27 14:49:34] RAW POST Data: Array
+(
+    [cs_id] => 5
+    [topsheet] => 0
+    [waybill] => 1
+    [date] => 2025-03-28
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 16:42:00
+    [truck_id] => 1
+    [driver_name] => 1
+    [helper1_name] => 1
+    [helper2_name] => 1
+    [fuelfee] => 1
+    [tollfee] => 1
+    [parkingfee] => 1
+    [rorofarefee] => 1
+    [budgetrelease] => 4
+    [pod_status] => Incomplete
+    [date_received] => 2025-03-28
+    [Remarks] => No Stamp
+    [pod_transmittal] => 1
+    [date_transmitted] => 2025-03-28
+    [odo_out] => 1
+    [odo_in] => 321
+    [odo_total] => 320
+    [invoice_number] => 1
+    [remarks] => Waiting for approval (client)
+)
+
+[2025-03-27 14:53:01] RAW POST Data: Array
+(
+    [cs_id] => 5
+    [topsheet] => 0
+    [waybill] => 1
+    [date] => 2025-03-28
+    [status] => Freight Order
+    [delivery_type] => dsa
+    [amount] => 0
+    [source] => dsa
+    [pickup] => adas
+    [dropoff] => albert
+    [rate] => asd
+    [call_time] => 16:42:00
+    [truck_id] => 1
+    [driver_name] => 1
+    [helper1_name] => 1
+    [helper2_name] => 1
+    [fuelfee] => 1
+    [tollfee] => 1
+    [parkingfee] => 1
+    [rorofarefee] => 1
+    [budgetrelease] => 4
+    [pod_status] => Complete
+    [date_received] => 2025-03-28
+    [Remarks] => No Stamp
+    [pod_transmittal] => 1
+    [date_transmitted] => 2025-03-28
+    [odo_out] => 1
+    [odo_in] => 321
+    [odo_total] => 320
+    [invoice_number] => 1
+    [remarks] => Waiting for approval (client)
+)
+
+[2025-04-03 13:20:27] RAW POST Data: Array
+(
+    [cs_id] => 21
+    [waybill] => 211
+    [date] => 2025-04-17
+    [status] => Freight Order
+    [delivery_type] => 2
+    [amount] => 2
+    [source] => 2
+    [pickup] => 2
+    [dropoff] => 2
+    [rate] => 2
+    [call_time] => 13:50:00
+    [truck_id] => 1
+    [driver] => 3
+    [helper1] => 1
+    [fuelfee] => 1
+    [tollfee] => 1
+    [parkingfee] => 1
+    [rorofarefee] => 1
+    [budgetrelease] => 4
+    [pod_status] => Complete
+    [Remarks] => No Stamp
+    [pod_transmittal] => 12
+    [date_transmitted] => 2025-04-23
+    [odo_out] => 6
+    [odo_in] => 56
+    [odo_total] => 50
+    [invoice_number] => 111
+    [date_received] => 2025-04-18
+    [remarks] => Done
+)
+
+[2025-04-03 13:20:39] RAW POST Data: Array
+(
+    [cs_id] => 22
+    [waybill] => 11
+    [date] => 2025-05-07
+    [status] => Freight Order
+    [delivery_type] => 1
+    [amount] => 21
+    [source] => 2
+    [pickup] => 2
+    [dropoff] => 2
+    [rate] => 2
+    [call_time] => 15:43:00
+    [truck_id] => 8
+    [driver] => 15
+    [helper1] => 15
+    [helper2] => 17
+    [fuelfee] => 1
+    [tollfee] => 11
+    [parkingfee] => 111
+    [rorofarefee] => 1
+    [budgetrelease] => 124
+    [pod_status] => Complete
+    [Remarks] => No Stamp
+    [pod_transmittal] => 11ws
+    [date_transmitted] => 2025-04-18
+    [odo_out] => 1
+    [odo_in] => 500
+    [odo_total] => 499
+    [invoice_number] => 11
+    [date_received] => 2025-05-02
+    [remarks] => Waiting for approval (client)
+)
+
+[2025-04-03 13:21:33] RAW POST Data: Array
+(
+    [cs_id] => 22
+    [waybill] => 11
+    [date] => 2025-05-07
+    [status] => Freight Order
+    [delivery_type] => 1
+    [amount] => 21
+    [source] => 2
+    [pickup] => 2
+    [dropoff] => 2
+    [rate] => 2
+    [call_time] => 15:43:00
+    [truck_id] => 8
+    [driver] => 15
+    [helper1] => 15
+    [helper2] => 17
+    [fuelfee] => 1
+    [tollfee] => 11
+    [parkingfee] => 111
+    [rorofarefee] => 1
+    [budgetrelease] => 124
+    [pod_status] => Complete
+    [date_received] => 2025-05-02
+    [Remarks] => No Stamp
+    [pod_transmittal] => 11ws
+    [date_transmitted] => 2025-04-18
+    [odo_out] => 1
+    [odo_in] => 500
+    [odo_total] => 499
+    [invoice_number] => 11
+    [remarks] => Done
+)
+
+[2025-04-03 13:21:45] RAW POST Data: Array
+(
+    [cs_id] => 22
+    [waybill] => 11
+    [date] => 2025-05-07
+    [status] => Freight Order
+    [delivery_type] => 1
+    [amount] => 21
+    [source] => 2
+    [pickup] => 2
+    [dropoff] => 2
+    [rate] => 2
+    [call_time] => 15:43:00
+    [truck_id] => 8
+    [driver] => 15
+    [helper1] => 15
+    [helper2] => 17
+    [fuelfee] => 1
+    [tollfee] => 11
+    [parkingfee] => 111
+    [rorofarefee] => 1
+    [budgetrelease] => 124
+    [pod_status] => Complete
+    [date_received] => 2025-05-02
+    [Remarks] => No Stamp
+    [pod_transmittal] => 11ws
+    [date_transmitted] => 2025-04-18
+    [odo_out] => 1
+    [odo_in] => 500
+    [odo_total] => 499
+    [invoice_number] => 11
+    [remarks] => Done
+)
+
+[2025-04-03 13:22:05] RAW POST Data: Array
+(
+    [cs_id] => 22
+    [waybill] => 11
+    [date] => 2025-05-07
+    [status] => Freight Order
+    [delivery_type] => 1
+    [amount] => 21
+    [source] => 2
+    [pickup] => 2
+    [dropoff] => 2
+    [rate] => 2
+    [call_time] => 15:43:00
+    [truck_id] => 8
+    [driver] => 15
+    [helper1] => 15
+    [helper2] => 17
+    [fuelfee] => 1
+    [tollfee] => 11
+    [parkingfee] => 111
+    [rorofarefee] => 1
+    [budgetrelease] => 124
+    [pod_status] => Complete
+    [date_received] => 2025-05-02
+    [Remarks] => No Stamp
+    [pod_transmittal] => 11ws
+    [date_transmitted] => 2025-04-18
+    [odo_out] => 1
+    [odo_in] => 500
+    [odo_total] => 499
+    [invoice_number] => 11
+    [remarks] => Done
+)
+
+[2025-04-03 13:22:20] RAW POST Data: Array
+(
+    [cs_id] => 22
+    [waybill] => 11
+    [date] => 2025-05-07
+    [status] => Freight Order
+    [delivery_type] => 1
+    [amount] => 21
+    [source] => 2
+    [pickup] => 2
+    [dropoff] => 2
+    [rate] => 2
+    [call_time] => 15:43:00
+    [truck_id] => 8
+    [driver] => 15
+    [helper1] => 15
+    [helper2] => 17
+    [fuelfee] => 1
+    [tollfee] => 11
+    [parkingfee] => 111
+    [rorofarefee] => 1
+    [budgetrelease] => 124
+    [pod_status] => Complete
+    [date_received] => 2025-05-02
+    [Remarks] => No Stamp
+    [pod_transmittal] => 11ws
+    [date_transmitted] => 2025-04-18
+    [odo_out] => 1
+    [odo_in] => 500
+    [odo_total] => 499
+    [invoice_number] => 11
+    [remarks] => Done
+)
+
+[2025-04-03 13:23:32] RAW POST Data: Array
+(
+    [cs_id] => 22
+    [waybill] => 11
+    [date] => 2025-05-07
+    [status] => Freight Order
+    [delivery_type] => 1
+    [amount] => 21
+    [source] => 2
+    [pickup] => 2
+    [dropoff] => 2
+    [rate] => 2
+    [call_time] => 15:43:00
+    [truck_id] => 8
+    [driver] => 15
+    [helper1] => 15
+    [helper2] => 17
+    [fuelfee] => 1
+    [tollfee] => 11
+    [parkingfee] => 111
+    [rorofarefee] => 1
+    [budgetrelease] => 124
+    [pod_status] => Complete
+    [date_received] => 2025-05-02
+    [Remarks] => No Stamp
+    [pod_transmittal] => 11ws
+    [date_transmitted] => 2025-04-18
+    [odo_out] => 1
+    [odo_in] => 500
+    [odo_total] => 499
+    [invoice_number] => 11
+    [remarks] => Done
+)
+
+[2025-04-03 16:27:25] RAW POST Data: Array
+(
+    [cs_id] => 21
+    [waybill] => 211
+    [date] => 4/17/2025
+    [amount] => ₱2.00
+    [source] => 2
+    [pickup] => 2
+    [dropoff] => 2
+    [invoice_number] => 1
+    [ar_date_received] => 2025-04-04
+    [ar_status] => Done
+    [ar_remarks] => 1
+)
+
+[2025-04-03 17:16:25] RAW POST Data: Array
+(
+    [cs_id] => 27
+    [ts_id] => undefined
+    [waybill] => 1
+    [date] => 2025-04-04
+    [status] => Freight Order
+    [delivery_type] => 1
+    [amount] => 1
+    [source] => 1
+    [pickup] => 1
+    [dropoff] => 1
+    [rate] => 1
+    [call_time] => 23:16:00
+    [truck_id] => 3
+    [driver] => 10
+    [helper1] => 7
+    [helper2] => 7
+    [fuelfee] => 1
+    [tollfee] => 11
+    [parkingfee] => 111
+    [rorofarefee] => 1
+    [budgetrelease] => 124
+    [pod_status] => Complete
+    [date_received] => 2025-04-04
+    [Remarks] => No Sign
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-04-26
+    [odo_out] => 2
+    [odo_in] => 22
+    [odo_total] => 20
+    [invoice_number] => 1
+    [ar_date_received] => 2025-05-10
+    [remarks] => Missing Docs
+)
+
+[2025-04-03 17:16:34] RAW POST Data: Array
+(
+    [cs_id] => 27
+    [ts_id] => undefined
+    [waybill] => 1
+    [date] => 2025-04-04
+    [status] => Freight Order
+    [delivery_type] => 1
+    [amount] => 1
+    [source] => 1
+    [pickup] => 1
+    [dropoff] => 1
+    [rate] => 1
+    [call_time] => 23:16:00
+    [truck_id] => 3
+    [driver] => 10
+    [helper1] => 7
+    [helper2] => 7
+    [fuelfee] => 1
+    [tollfee] => 11
+    [parkingfee] => 111
+    [rorofarefee] => 1
+    [budgetrelease] => 124
+    [pod_status] => Complete
+    [date_received] => 2025-04-04
+    [Remarks] => No Sign
+    [pod_transmittal] => as
+    [date_transmitted] => 2025-04-26
+    [odo_out] => 2
+    [odo_in] => 22
+    [odo_total] => 20
+    [invoice_number] => 1
+    [ar_date_received] => 2025-04-04
+    [remarks] => Done
+)
+
+[2025-04-04 02:58:45] RAW POST Data: Array
+(
+    [cs_id] => 29
+    [ts_id] => undefined
+    [waybill] => 3
+    [date] => 2025-04-10
+    [status] => Freight Order
+    [delivery_type] => 3
+    [amount] => 3
+    [source] => 3
+    [pickup] => 3
+    [dropoff] => 3
+    [rate] => 3
+    [call_time] => 09:40:00
+    [truck_id] => 2
+    [driver] => 3
+    [helper1] => 1
+    [helper2] => 1
+    [fuelfee] => 1
+    [tollfee] => 11
+    [parkingfee] => 111
+    [rorofarefee] => 1
+    [budgetrelease] => 124
+    [pod_status] => Complete
+    [date_received] => 2025-04-18
+    [Remarks] => No Sign
+    [pod_transmittal] => 11ws
+    [date_transmitted] => 2025-04-17
+    [odo_out] => 2
+    [odo_in] => 22
+    [odo_total] => 20
+    [invoice_number] => 1
+    [ar_date_received] => 2025-04-04
+    [remarks] => Waiting for approval (client)
+)
+
+[2025-04-04 02:59:10] RAW POST Data: Array
+(
+    [cs_id] => 29
+    [ts_id] => undefined
+    [waybill] => 3
+    [date] => 2025-04-10
+    [status] => Freight Order
+    [delivery_type] => 3
+    [amount] => 3
+    [source] => 3
+    [pickup] => 3
+    [dropoff] => 3
+    [rate] => 3
+    [call_time] => 09:40:00
+    [truck_id] => 2
+    [driver] => 3
+    [helper1] => 1
+    [helper2] => 1
+    [pod_status] => Complete
+    [date_received] => 2025-04-18
+    [Remarks] => No Sign
+    [pod_transmittal] => 11ws
+    [date_transmitted] => 2025-04-17
+    [odo_out] => 2
+    [odo_in] => 22
+    [odo_total] => 20
+    [invoice_number] => 1
+    [ar_date_received] => 2025-04-18
+    [remarks] => Done
+)
+
