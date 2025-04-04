@@ -1,0 +1,56 @@
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 112
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 113
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 114
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 115
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 116
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 117
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 118
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 119
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 120
+[02-Apr-2025 07:10:08 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\pcl\update_trip.php:161
+Stack trace:
+#0 C:\xampp\htdocs\pcl\update_trip.php(161): mysqli_stmt->bind_param('isssssssssssssi', 12, '2025-04-10', 'Freight Order', '1', '1', '1', '1', '1', '1', '00:45:00', 0, '', '', '', 'Pending', 18)
+#1 {main}
+  thrown in C:\xampp\htdocs\pcl\update_trip.php on line 161
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 112
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 113
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 114
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 115
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 116
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 117
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 118
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 119
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 120
+[02-Apr-2025 07:10:31 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\pcl\update_trip.php:161
+Stack trace:
+#0 C:\xampp\htdocs\pcl\update_trip.php(161): mysqli_stmt->bind_param('isssssssssssssi', 12, '2025-04-10', 'Freight Order', '1', '1', '1', '1', '1', '1', '00:45:00', 0, '', '', '', 'Pending', 18)
+#1 {main}
+  thrown in C:\xampp\htdocs\pcl\update_trip.php on line 161
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 112
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 113
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 114
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 115
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 116
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 117
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 118
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 119
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 120
+[02-Apr-2025 07:11:08 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\pcl\update_trip.php:161
+Stack trace:
+#0 C:\xampp\htdocs\pcl\update_trip.php(161): mysqli_stmt->bind_param('isssssssssssssi', 12, '2025-04-10', 'Freight Order', '1', '1', '1', '1', '1', '1', '00:45:00', 0, '', '', '', 'Pending', 18)
+#1 {main}
+  thrown in C:\xampp\htdocs\pcl\update_trip.php on line 161
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 112
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 113
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 114
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 115
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 116
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 117
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 118
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 119
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\pcl\update_trip.php on line 120
+[02-Apr-2025 07:11:26 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\pcl\update_trip.php:161
+Stack trace:
+#0 C:\xampp\htdocs\pcl\update_trip.php(161): mysqli_stmt->bind_param('isssssssssssssi', 12, '2025-04-10', 'Freight Order', '1', '1', '1', '1', '1', '1', '00:45:00', 0, '', '', '', 'Pending', 18)
+#1 {main}
+  thrown in C:\xampp\htdocs\pcl\update_trip.php on line 161
